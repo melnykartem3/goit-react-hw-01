@@ -1,0 +1,27 @@
+.table {
+  width: 800px;
+  border: 1px solid #000000;
+  border-spacing: 0;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.tableHead {
+  background-color: #2f2c2c;
+  height: 40px;
+}
+
+.headItems {
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.tableBody:nth-child(even) {
+  background-color: #cbcbcb;
+}
+
+.bodyItems {
+  border: 1px solid #000000;
+  height: 40px;
+  text-align: center;
+}

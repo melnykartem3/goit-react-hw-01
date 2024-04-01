@@ -1,0 +1,84 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  margin: 0 auto;
+  border: 4px solid #555555;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.firstChapter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.username {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin: 24px;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: rgb(36, 33, 33);
+  margin-top: 16px;
+}
+
+.tag {
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #787272;
+  margin: 0;
+}
+
+.location {
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #787272;
+  margin-top: 12px;
+}
+
+.statsList {
+  display: flex;
+  width: 440px;
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background-color: #d3d2d2;
+}
+
+.statsListItem {
+  border: 3px solid #787272;
+  border-bottom: none;
+  border-left: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.statsListItem:last-child {
+  border-right: none;
+}
+
+.stats {
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+
+.numbers {
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
